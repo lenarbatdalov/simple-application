@@ -1,0 +1,40 @@
+{
+  "editor.hover.enabled": false,
+  "workbench.colorTheme": "Default Light+",
+  // "workbench.colorTheme": "SynthWave '84",
+  // "window.zoomLevel": -0.2,
+
+  // скрыть файлы в проекте
+  "files.exclude": {
+    // BASE
+    // "**/.vscode": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/docker-compose.yml": true,
+    "**/.devcontainer": true,
+
+    // PHP
+    "**/vendor": true,
+    "**/composer.json": true,
+    "**/composer.lock": true,
+
+    // JavaScript
+    "**/node_modules/": true,
+    "**/package.json": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+
+    // TEST
+    "tests": true,
+    "phpunit.xml": true,
+
+    // Other
+    "lang": true,
+    "artisan": true,
+    "storage": true,
+    "public": true,
+    ".gitattributes": true,
+    ".env.example": true,
+    ".styleci.yml": true,
+  }
+}
